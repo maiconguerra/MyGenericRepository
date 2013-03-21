@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="03141a25-d489-4010-a121-336aefb32da4"
+  name="Entity"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="4e57883d-907f-4443-a3f4-9e8577e8c699"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DBusiness.Entity"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="63e24882-3859-483e-ab20-e813819276d1"
+        name="Order"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="511933ed-5df0-43ce-b250-5e98f7113f94"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness.Entity Type%3DOrder"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="80da3a03-3304-4d0a-9ad1-5dfa6333a278"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2cb66ff8-2e75-4cd9-8b2c-88a17d5c087b">
+                <propertyInstance
+                  Id="80420edb-6e10-4b6c-b381-4b89f7f71e77"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8d66847a-ea99-474b-990b-016e9cb73358">
+                <propertyInstance
+                  Id="8c0d04c8-7e06-48eb-957f-0c638875763d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="60172e2f-8d73-40d3-aa87-2ab226c63924">
+                <propertyInstance
+                  Id="877377b7-341a-4356-bf8b-aa49a292e593"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7d3ba41b-12bf-4dfe-abf2-f55506b568cc">
+                <propertyInstance
+                  Id="89339402-0171-443f-9884-e756fab3f1cf"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="866d0c07-0f09-4ff5-97f9-5d0715c233e3">
+                <propertyInstance
+                  Id="2b0f118d-fa37-46bc-9b55-9e185bd17156"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="1d6522c6-5aa1-43f4-8be4-cbd0a17e8cc0"
+        name="Product"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e27d0bd2-644e-4177-b627-9312f00c64bb"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness.Entity Type%3DProduct"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0d6a38de-7888-49c0-982b-c74b93f33c04"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6f7205e9-e42b-4d3b-b803-cb0cb1df5832">
+                <propertyInstance
+                  Id="b468d3b3-2fc5-4a0c-b670-dd27965f4dc9"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d1a62227-1002-4f7e-b75f-f0c0fc3e18b4">
+                <propertyInstance
+                  Id="aa979976-4242-4942-9067-9d6f0f7cc23a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2ad249ac-c0dc-4f3e-879b-a2de0120c156">
+                <propertyInstance
+                  Id="09c57e9b-9fe2-4cb9-86d3-4c646d939aac"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b895272e-6a0d-4207-a16b-69597749f5c7">
+                <propertyInstance
+                  Id="2684431b-0ba9-4c6a-ba82-de18541e6916"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cf07368e-5541-439f-a89f-390a58b9c4b7">
+                <propertyInstance
+                  Id="dd35395d-0db3-4e90-92ef-bb832640dfa4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

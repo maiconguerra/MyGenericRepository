@@ -1,0 +1,1253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="01f0b36e-dbf2-47bb-9dde-2616604b6b89"
+  name="Business"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="bc37b9c6-59b9-4061-bc1e-0867dbd3248d"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DBusiness"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="e67b2ef5-efbb-45c9-bb5d-4b182353db01"
+        name="IRepository&lt;T‎&gt;"
+        isAbstract="false"
+        isLeaf="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="bf0274d5-078e-4556-a50d-63028a768ca8"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1a8e6d49-8300-4155-9794-c87a9815d822">
+                <propertyInstance
+                  Id="6fde46d5-5f45-4b36-96a5-239eb128641a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="89023943-fac7-4082-91d1-b67f44eff73f">
+                <propertyInstance
+                  Id="26e487f0-8665-4b1b-ac9c-3544b72361ab"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a0eef03f-7f62-4502-99ff-9ef73b3b3bc4">
+                <propertyInstance
+                  Id="5b7a70e1-a262-4b0f-b54e-724ca032bf1b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6a66fc87-9432-4e51-897c-1b03697cb634">
+                <propertyInstance
+                  Id="0aeee4e5-5ce8-4c7f-85e6-24d260c8e8ad"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <signatures>
+          <templateBinding
+            Id="1f59c9b7-17c9-4313-b29a-323cc85244be">
+            <redefinableTemplateSignatureMoniker
+              Id="90ae00a5-9e94-4d80-9fa7-15de269e83ff"
+              LastKnownLocation="Package4_1313.uml" />
+            <relationshipOwnedElementsInternal>
+              <templateBindingHasTemplateParameterSubstitution>
+                <templateParameterSubstitution
+                  Id="ee4b934a-c85d-41dc-81b6-7ea4a0a9389c">
+                  <actuals>
+                    <classMoniker
+                      Id="81e559fe-d6ae-4289-94ea-bf72e96029cb"
+                      LastKnownName="T"
+                      LastKnownLocation="Package_1313.uml" />
+                  </actuals>
+                  <formal>
+                    <classifierTemplateParameterMoniker
+                      Id="d7448efb-fb87-4a77-9cd3-cbfe9b1e1b08"
+                      LastKnownLocation="Package4_1313.uml" />
+                  </formal>
+                </templateParameterSubstitution>
+              </templateBindingHasTemplateParameterSubstitution>
+            </relationshipOwnedElementsInternal>
+          </templateBinding>
+        </signatures>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="5851aec5-dd77-4f1a-b7a0-8350482630d7"
+        name="IRepository"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="eee5ea19-09e8-4292-a111-a89229cdcd72"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3D(Name%3DIRepository GenericParameterCount%3D1)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="33e140cb-42ab-41d9-a18b-cfc7897945b8"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="926104f4-2d36-4484-bc6d-4b3f7d902d67">
+                <propertyInstance
+                  Id="287c97d1-9bb7-46cb-a08e-0b81d4f758a8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b95882f0-ed56-4203-8d87-5ebd5d3d072a">
+                <propertyInstance
+                  Id="dbd9a218-ccc1-4cd0-b863-b1949e19c53a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1dd5df13-b264-47ab-8f2d-60aee88ed1c4">
+                <propertyInstance
+                  Id="3cfb7714-ff01-4dba-bdb8-4ea968377be5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ef9a4343-b755-4518-ba29-c83fbfb7387f">
+                <propertyInstance
+                  Id="d3088a0a-958d-48f2-bb61-055d84a20afb"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="90ae00a5-9e94-4d80-9fa7-15de269e83ff"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="d7448efb-fb87-4a77-9cd3-cbfe9b1e1b08">
+                <referencesInternal>
+                  <reference
+                    Id="e0af5e94-9182-48cd-9c61-da52520517af"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3D(Name%3DIRepository GenericParameterCount%3D1) ParameterIdentifier%3D0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="65babc8a-2146-4af8-a77f-df249bbf28df"
+                    name="T"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+        <ownedOperations>
+          <operation
+            Id="cbeeaf5b-cd08-4311-a3b7-b1c6a429661e"
+            name="Save"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="589de681-97f7-40d6-9d97-1f9ea8a9fc5a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3D(Name%3DIRepository GenericParameterCount%3D1) Member%3D(Name%3DSave OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3D(Name%3DIRepository GenericParameterCount%3D1) ParameterIdentifier%3D0)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2a26e1bf-43d3-4ad0-942d-1e8b2d05c27c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5741ff5c-7872-4336-83fb-10c90e1da713">
+                    <propertyInstance
+                      Id="721dd430-e645-484a-af8a-c30499c75ee1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d67f9f43-83c2-43e2-b013-4facbc78a2d4">
+                    <propertyInstance
+                      Id="e3ea6a95-34ef-4c82-a125-8efd9ddc2f27"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c2cd804f-de0c-472c-9f50-01c92c5ee8cb">
+                    <propertyInstance
+                      Id="0d2830a3-d168-4629-9509-689ef48a39c7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b982384-1553-41e4-84ac-25952d007e3b">
+                    <propertyInstance
+                      Id="5e777de3-7d80-49a9-a310-e83e6eb1b558"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e66a6a3d-8bc0-4651-be12-cef954aca222">
+                    <propertyInstance
+                      Id="8e715b11-d46a-4ce9-9fa0-a2c329868704"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f8dbd3c2-1004-4827-b5fb-4c9de5e00c62">
+                    <propertyInstance
+                      Id="ccf67e98-1f54-4f0f-a1a7-d42856ba6a7f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="87fcd11a-1562-4684-a509-526eeda8001b"
+                  name="entity"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="69ddf5e0-54d4-4871-a614-76efd16ee623"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3D(Name%3DIRepository GenericParameterCount%3D1) Member%3D(Name%3DSave OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3D(Name%3DIRepository GenericParameterCount%3D1) ParameterIdentifier%3D0)]) ParameterIdentifier%3Dentity"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="65babc8a-2146-4af8-a77f-df249bbf28df"
+                      LastKnownName="T"
+                      LastKnownLocation="Package4_1313.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d4eeec42-b4b3-4683-9a0e-f3f4a278b325"
+            name="Get"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4e7d7ca6-cba3-4404-b9cb-b4f3f29d78ac"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3D(Name%3DIRepository GenericParameterCount%3D1) Member%3D(Name%3DGet OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3D(Name%3DIRepository GenericParameterCount%3D1) ParameterIdentifier%3D0)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bf007bb0-8f30-4962-8ca1-99c295713b88"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e88a19e6-7500-42de-af33-936f103503c6">
+                    <propertyInstance
+                      Id="f43585cd-8be8-4241-89d1-d65387e380d6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b13c966a-5a58-4cb0-80fb-7b837c3e3e99">
+                    <propertyInstance
+                      Id="4cd6b392-4375-4bc9-b108-5e477403888c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc196e9d-8952-4d9f-bc5b-681132311cf5">
+                    <propertyInstance
+                      Id="dfad84f0-0e99-496c-b692-f99592f929da"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="879b2f49-ef49-4b3a-b215-8938209f750c">
+                    <propertyInstance
+                      Id="e2db204f-85a4-4668-9c26-be4b65974fb0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3b3944d-e04e-45f8-9e3b-97a5d725ead6">
+                    <propertyInstance
+                      Id="c9d4fbe1-669c-4af0-b9f6-2b9c30b82973"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed64fbc4-1909-42e9-900c-ab6fb3a13db0">
+                    <propertyInstance
+                      Id="6d80ec9f-bf62-44af-ab58-15a8b23e86db"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f2ae5ca2-1a26-453f-a9ff-4ab9e99f9914"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="65babc8a-2146-4af8-a77f-df249bbf28df"
+                      LastKnownName="T"
+                      LastKnownLocation="Package4_1313.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8d0d3b8e-bf44-4ba0-8c0d-d5d4e087eab8"
+                  name="selector"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="459acde7-1982-4ce5-9b6c-bbe34a6d1db3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3D(Name%3DIRepository GenericParameterCount%3D1) Member%3D(Name%3DGet OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Core.dll&quot; Namespace%3DSystem.Linq.Expressions Type%3D(Name%3DExpression GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3D(Name%3DIRepository GenericParameterCount%3D1) ParameterIdentifier%3D0)]))]) ParameterIdentifier%3Dselector"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="99f8235b-4dad-460d-948a-cea46ec62541"
+                      LastKnownName="Expression&lt;T‎&gt;"
+                      LastKnownLocation="Package3_1313.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="33271381-5631-45aa-b4d2-8f10fe7629ba"
+            name="Delete"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="150e259e-7e48-40b7-91b8-9b41e7bce3cb"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3D(Name%3DIRepository GenericParameterCount%3D1) Member%3D(Name%3DDelete OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3D(Name%3DIRepository GenericParameterCount%3D1) ParameterIdentifier%3D0)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a9a2a4a3-da1a-490b-a23d-a073c283edc3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9c0380d-21ff-4247-839d-718d9106c312">
+                    <propertyInstance
+                      Id="e69e22f1-801d-4033-9072-7443ffdf6664"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7a6564d-0b8d-4563-b8fc-8c730865b035">
+                    <propertyInstance
+                      Id="a1b016ba-2d25-488f-9432-c7ea83e1091e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6cd521e-cc09-4dd2-a1cf-74380cb9417b">
+                    <propertyInstance
+                      Id="5ee4329b-98f9-43d1-94b8-867d89fe0a33"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e16ea04-4cc2-4ef6-bdd2-e58ce5b5c161">
+                    <propertyInstance
+                      Id="330c982b-ed26-40e0-833c-2c3b882eb9ee"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c3cc0637-6ef3-4b80-b84d-416ecde86463">
+                    <propertyInstance
+                      Id="904b8f6a-f6e3-404c-897c-f88efc1e6f0e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="468698ac-2d49-402f-98e4-b52ee19c3d4c">
+                    <propertyInstance
+                      Id="b12a5105-e722-42f6-9f6c-3aa4a240089c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="03ba418a-bc40-42bb-910d-67fd5e0ab9c8"
+                  name="entity"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d6355f0c-a690-472e-ab12-ad0264116a0d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3D(Name%3DIRepository GenericParameterCount%3D1) Member%3D(Name%3DDelete OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3D(Name%3DIRepository GenericParameterCount%3D1) ParameterIdentifier%3D0)]) ParameterIdentifier%3Dentity"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="65babc8a-2146-4af8-a77f-df249bbf28df"
+                      LastKnownName="T"
+                      LastKnownLocation="Package4_1313.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="03141a25-d489-4010-a121-336aefb32da4"
+        LastKnownName="Entity"
+        LastKnownLocation="Package2_1314.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="b0810208-d5dd-49e4-b956-b0d332a4e6ba"
+        name="IOrderRepository"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="b4a900ee-6f4b-4e21-bf51-405c5f8642a8"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3DIOrderRepository"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="aeccadc8-dc3b-42e7-abbb-367bcfd9a3ec"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a9d84bdb-4c29-4c37-9a55-cf447cba646e">
+                <propertyInstance
+                  Id="c5258f7d-d96f-41b9-ada1-bf1d5dc4e800"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0493fb1a-799c-4922-9225-03bf28b5ce9d">
+                <propertyInstance
+                  Id="0d31c0e2-2044-4dca-bd4c-ca0bbdaa4d27"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7f1db145-d3e9-442b-98c0-2708e8892c19">
+                <propertyInstance
+                  Id="04b1f32f-ff46-4a48-b7f0-228fc00bd131"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e3ad1fad-4133-4f3b-ae71-b7f1c3497947">
+                <propertyInstance
+                  Id="c30d4835-18c7-43cb-98cb-efec6613ffd4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="ebc1349e-ca72-41ec-a07c-951426d5839f"
+            isSubstitutable="false">
+            <interfaceMoniker
+              Id="52d055ad-c4c1-4704-9cbc-22a32dbf425b"
+              LastKnownName="IRepository&lt;Order‎&gt;"
+              LastKnownLocation="Package4_1313.uml" />
+          </generalization>
+          <generalization
+            Id="30d38720-df92-4bb6-90b6-e536241a06e0"
+            isSubstitutable="false">
+            <interfaceMoniker
+              Id="5851aec5-dd77-4f1a-b7a0-8350482630d7"
+              LastKnownName="IRepository"
+              LastKnownLocation="Package4_1313.uml" />
+          </generalization>
+          <generalization
+            Id="c1daf40d-ca75-4691-ad78-6492d01cf062"
+            isSubstitutable="false">
+            <interfaceMoniker
+              Id="e67b2ef5-efbb-45c9-bb5d-4b182353db01"
+              LastKnownName="IRepository&lt;T‎&gt;"
+              LastKnownLocation="Package4_1313.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperations>
+          <operation
+            Id="04c8cc08-a832-4b0e-a249-26ddd3cd9843"
+            name="GetByProduct"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e366ec4d-6e92-4e89-b37c-25662e3a648c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3DIOrderRepository Member%3D(Name%3DGetByProduct OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness.Entity Type%3DProduct)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0b127d5b-7d54-425a-b49e-2a9941993d80"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="946dd9ac-8d95-433b-b2bd-1420bdefbb99">
+                    <propertyInstance
+                      Id="f2663d2b-8550-47e0-b807-080bcd61f0b0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20b5b793-1ba1-48d6-a2cd-1f49e9c58e00">
+                    <propertyInstance
+                      Id="a35c8525-0a70-409d-912b-0dceb494d145"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7af633f9-3dfb-46ed-ac8f-8de9a390b45f">
+                    <propertyInstance
+                      Id="5d6ad0b8-428e-498e-acb2-c1d7b2b740f7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73b1ed35-c006-4f90-bbfc-9821fcd4348e">
+                    <propertyInstance
+                      Id="240c685a-ea77-4205-be03-417f661d657c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be716875-60b3-4570-bf9b-f1722647be6e">
+                    <propertyInstance
+                      Id="723d4b6c-91e9-417a-865a-c30a451434d5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19a3ba2c-3b68-4428-acab-79b057dac099">
+                    <propertyInstance
+                      Id="33f4b9c0-71be-405f-9aca-72f11e6a9cf9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5ca106f6-0421-4279-9254-041a0e80b267"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d59df9e1-503c-4370-84ef-884403db8a9f"
+                      LastKnownName="List&lt;Order‎&gt;"
+                      LastKnownLocation="Package1_1314.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="45584134-99cb-485e-926c-7d19d808d464"
+                  name="product"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ec74a564-c3a3-445c-b794-aa63715983b7"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3DIOrderRepository Member%3D(Name%3DGetByProduct OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness.Entity Type%3DProduct)]) ParameterIdentifier%3Dproduct"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="1d6522c6-5aa1-43f4-8be4-cbd0a17e8cc0"
+                      LastKnownName="Product"
+                      LastKnownLocation="Package2_1314.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="52d055ad-c4c1-4704-9cbc-22a32dbf425b"
+        name="IRepository&lt;Order‎&gt;"
+        isAbstract="false"
+        isLeaf="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a3a50eac-7de5-45c8-b9e8-5d2c7686e82c"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6792ed68-4788-436a-90c3-fadc8dbdb438">
+                <propertyInstance
+                  Id="6e2150df-1915-4b43-8250-6c2f26a332ea"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f030ed92-2955-4f52-b844-937c6d363d67">
+                <propertyInstance
+                  Id="d09b2ad9-0d60-4105-aeba-17e7f160b062"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e3f0dda3-8bdb-44e2-a492-c31b2f35642d">
+                <propertyInstance
+                  Id="9b655b05-3c89-41c8-ab5a-3f139acc9c03"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="328bfeab-697f-410e-9402-88b50096f01c">
+                <propertyInstance
+                  Id="43e12c04-935e-4344-bc69-02697cbeff4c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <signatures>
+          <templateBinding
+            Id="5a49fbdf-cf0e-450c-a721-68f4e28baab2">
+            <redefinableTemplateSignatureMoniker
+              Id="90ae00a5-9e94-4d80-9fa7-15de269e83ff"
+              LastKnownLocation="Package4_1313.uml" />
+            <relationshipOwnedElementsInternal>
+              <templateBindingHasTemplateParameterSubstitution>
+                <templateParameterSubstitution
+                  Id="20622895-978c-48bf-af31-32d905246c80">
+                  <actuals>
+                    <classMoniker
+                      Id="63e24882-3859-483e-ab20-e813819276d1"
+                      LastKnownName="Order"
+                      LastKnownLocation="Package2_1314.uml" />
+                  </actuals>
+                  <formal>
+                    <classifierTemplateParameterMoniker
+                      Id="d7448efb-fb87-4a77-9cd3-cbfe9b1e1b08"
+                      LastKnownLocation="Package4_1313.uml" />
+                  </formal>
+                </templateParameterSubstitution>
+              </templateBindingHasTemplateParameterSubstitution>
+            </relationshipOwnedElementsInternal>
+          </templateBinding>
+        </signatures>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="b3242e95-d1cc-4f73-8043-565e003ff58f"
+        name="IRepositoryFactory"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="68b37e69-38c4-4f73-94a2-1b41389c8b48"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3DIRepositoryFactory"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d8339fbe-8cfe-4aa0-9b40-7bff44b08174"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="22c547e1-0308-4901-839f-0de5494fb4c1">
+                <propertyInstance
+                  Id="7b2d349d-cd2b-4773-957d-edb47f68928f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aa73ea34-d3fb-4dc2-abed-ea35a80a2b1e">
+                <propertyInstance
+                  Id="913bfda0-6bf7-4ab2-9522-56583097b844"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fab352e3-e04e-4adc-bcb0-857e9ad31c03">
+                <propertyInstance
+                  Id="932cd4d0-1917-49e1-add8-5cb0d15be016"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6bcda456-3ac4-438e-adc7-6bade525d824">
+                <propertyInstance
+                  Id="4aebf7d4-1c68-4bf5-8e69-4461572a611d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="8aa35cd7-2403-43e2-8c3d-30391af7d87d">
+            <interfaceMoniker
+              Id="5851aec5-dd77-4f1a-b7a0-8350482630d7"
+              LastKnownName="IRepository"
+              LastKnownLocation="Package4_1313.uml" />
+          </dependency>
+          <dependency
+            Id="91ce69ff-f31f-4abf-9838-af3d82d8d1b5">
+            <interfaceMoniker
+              Id="b0810208-d5dd-49e4-b956-b0d332a4e6ba"
+              LastKnownName="IOrderRepository"
+              LastKnownLocation="Package4_1313.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedOperations>
+          <operation
+            Id="b5172fff-9672-4096-8733-f86f8546f114"
+            name="GetGenericRepository‎&lt;T‎&gt;"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d418068f-fe61-4413-b6e5-03ddce0d7900"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3DIRepositoryFactory Member%3D(Name%3DGetGenericRepository GenericParameterCount%3D1)"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ff4551a2-f2e1-4fd5-b87f-4050b52c7d49"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="863d80fb-2357-414a-9749-cadbb8a93f08">
+                    <propertyInstance
+                      Id="4e637949-dd69-4c27-aa38-2d1c26ddd2db"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4f43420-a337-4c25-9d4a-9eaae1140058">
+                    <propertyInstance
+                      Id="c89b01f7-02bb-44ba-b75f-96eff4b233d1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4daea9e2-381c-4d4a-8bb0-f76e998ec26a">
+                    <propertyInstance
+                      Id="afe0d4a6-eb37-4dae-9b1e-c4d9ffef3af8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9912ec50-ab5e-4590-89aa-d80884701368">
+                    <propertyInstance
+                      Id="5d3c3b26-7bf1-46e4-88e6-54d6f608d019"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="521ee6aa-a425-43d3-ab73-2550cd1f2704">
+                    <propertyInstance
+                      Id="448e4a84-1fe2-4e4d-8437-1f8c31fe624c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18da87e8-0ea9-4f8e-bd3c-4a91a5535a01">
+                    <propertyInstance
+                      Id="01daa7ec-55b6-41d4-ad9e-e91789bad44d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4475c8d0-18d3-49c4-ad09-1b67a4ca758c"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="e67b2ef5-efbb-45c9-bb5d-4b182353db01"
+                      LastKnownName="IRepository&lt;T‎&gt;"
+                      LastKnownLocation="Package4_1313.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3acd1ac9-07bf-4d59-82b0-8d53e8d6b4ed"
+            name="GetOrderRepository"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="25ad08e2-19d8-4850-8454-ecbe0b469d9c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3DIRepositoryFactory Member%3DGetOrderRepository"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="298e930c-b296-4e28-bd6c-89fa4dbb3469"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81ced1fa-9dd6-4845-9456-62819de987c5">
+                    <propertyInstance
+                      Id="18d06708-ba40-4272-94ae-81c096b1a8df"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c159948-82de-4ec2-9b10-dcaea20cd67b">
+                    <propertyInstance
+                      Id="b0336b3a-35a2-48c0-92c1-6284623603b4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="199a0c2d-7a98-4505-92d0-eed2fd466e03">
+                    <propertyInstance
+                      Id="f3a523c2-d7a0-4415-bf0c-390e8de8e6a4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c3bfa59-e5e1-4da2-86d7-c9e566db05ff">
+                    <propertyInstance
+                      Id="a76d8e38-44dc-4642-86c4-2e208c09505b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ffec1f18-1fa2-40d1-81dc-b2acc19ceb86">
+                    <propertyInstance
+                      Id="ec7fd9ab-d582-48d8-8982-1612041324d5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="30852c4c-e4f3-4dfb-ba77-6137b935cf71">
+                    <propertyInstance
+                      Id="2546dd81-403c-42a0-8f1a-45984770fe86"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8efb019f-7c44-498b-bb76-b14154464c53"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="b0810208-d5dd-49e4-b956-b0d332a4e6ba"
+                      LastKnownName="IOrderRepository"
+                      LastKnownLocation="Package4_1313.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="364a72e2-7d62-4522-a3e9-3bef6c2c7cb0"
+        name="T">
+        <referencesInternal>
+          <reference
+            Id="f3235272-855e-4220-8c0a-74667cd2879c"
+            handle="viewcode://./CodeSchema_GenericParameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3DIRepositoryFactory Member%3D(Name%3DGetGenericRepository GenericParameterCount%3D1) ParameterIdentifier%3D0"
+            tag="ViewCode" />
+        </referencesInternal>
+      </undefinedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="03053352-1662-42de-a496-f1f81561faa1"
+        name="Cart"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="053c85cd-ecba-406c-a54c-48061d92f833"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3DCart"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="dac0171f-f84d-4a1e-b795-5db9d3705a18"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3d465735-e7b5-4019-a6d8-442ee970b928">
+                <propertyInstance
+                  Id="65b1d241-946f-42ac-9094-cef57113f8ed"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c16cc9c1-a2cc-475d-b215-923bd0e99b0b">
+                <propertyInstance
+                  Id="9b535f31-8376-4d81-87ab-ecfe07f718f3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bb38210e-711c-45bf-a35d-d590a6d85739">
+                <propertyInstance
+                  Id="3f2eb33e-0d96-4052-af22-a59ba5b47fa6"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e769b3d9-2123-43be-aeb5-9017f68a60d9">
+                <propertyInstance
+                  Id="b84a3d23-72e0-4902-9cc9-b7dbf24f4635"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2ca981dc-3612-40e1-8d8f-3e2aae8bb1d2">
+                <propertyInstance
+                  Id="77a66162-07a2-4193-ab0b-a9e8a4806fc4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="376e58f8-42e8-44ee-93e8-4a13346efc09">
+            <interfaceMoniker
+              Id="b3242e95-d1cc-4f73-8043-565e003ff58f"
+              LastKnownName="IRepositoryFactory"
+              LastKnownLocation="Package4_1313.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="8cb50e33-9ca9-4264-8325-35078e060905"
+            name="factory"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2a565054-7311-4e28-8b59-85438754f9f8"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3DCart Member%3Dfactory"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2b38c41b-494e-4042-9618-8c29a1fcc33e"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21238a3e-6ab7-4244-b002-26c8585b1973">
+                    <propertyInstance
+                      Id="d6d24715-6347-407b-b632-e671301e54a3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d028319-b3e5-463e-83f4-0738983dba1c">
+                    <propertyInstance
+                      Id="7ab0b212-c6bd-42fa-8f3e-6217615530cd"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="664c6a58-acbc-4d15-a995-73ef86a2c90d">
+                    <propertyInstance
+                      Id="714d67ca-e82b-4711-a4e9-d1ad670b6b83"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f7c412a-7cca-4b50-9d03-ab3c27607c1b">
+                    <propertyInstance
+                      Id="89b3bed6-5597-4aa6-a4b4-488f0288535d"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4eb8a41b-53c4-4bff-a0ea-5801bad3ba9b">
+                    <propertyInstance
+                      Id="48562ed7-f4bd-4168-ac0e-dfee5dde93e1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="b3242e95-d1cc-4f73-8043-565e003ff58f"
+                LastKnownName="IRepositoryFactory"
+                LastKnownLocation="Package4_1313.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="fcce2e9f-3ac6-4699-b402-07cf55e3fe9c"
+            name="Cart"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1cf05da4-2c65-4d4f-9943-40b2869410c7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3DCart Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3DIRepositoryFactory)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b30ebcdb-4d03-4267-b3c2-f25eaef46c9e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd675088-cfc4-4b25-83da-6b72a729d709">
+                    <propertyInstance
+                      Id="922292ea-a1e2-4b11-b3d1-7b532b41c033"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4439b719-0518-4211-9a49-092b76761d78">
+                    <propertyInstance
+                      Id="ef126880-eaac-4a65-b57a-2f57bbed8f8b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4902100-78de-4179-9bd8-f27065ea6f6e">
+                    <propertyInstance
+                      Id="a9a9e40d-2b93-4397-811b-a1434906826d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b763b259-0a87-4eb4-9ac2-bd632098a3d6">
+                    <propertyInstance
+                      Id="aad203da-41d0-4153-88ce-a770a27c5526"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9147c49-6736-4743-88b1-4f87c6282d33">
+                    <propertyInstance
+                      Id="0c02b661-89dc-4cfd-8fee-9411f06f53a3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c19089f8-4a98-4056-8909-cebe0db2dafe">
+                    <propertyInstance
+                      Id="eb923417-38c8-41d2-b6ac-714798d555cc"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="394d55c1-5143-4eae-b5e5-f39e1f41ba50"
+                  name="factory"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="9cc34803-1ed6-45e0-920a-c9276612d95f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3DCart Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3DIRepositoryFactory)]) ParameterIdentifier%3Dfactory"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="b3242e95-d1cc-4f73-8043-565e003ff58f"
+                      LastKnownName="IRepositoryFactory"
+                      LastKnownLocation="Package4_1313.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="36a806cc-6a2f-4ab3-947b-d8193f060d61"
+            name="SaveOrder"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d7e14277-0dd7-43ab-80f2-8cac3a9d321a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3DCart Member%3D(Name%3DSaveOrder OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness.Entity Type%3DOrder)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness.Entity Type%3DProduct)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="06ed87ee-3b37-4349-bd04-16b3490ec660"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="354fbd91-0c5e-441d-8c6f-ae1dc66881a1">
+                    <propertyInstance
+                      Id="b8aa3cae-c0ca-47a7-b896-c05adb03532a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19d1cb40-7feb-4c31-bfbc-8b2f7aff2248">
+                    <propertyInstance
+                      Id="c7b9ddf6-26f4-4fcb-bdcf-2b94c19d2d4a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f9bf343-7e58-4d13-8227-2bfa6eff4600">
+                    <propertyInstance
+                      Id="b76010e3-d9bd-434c-a51d-7c144a6f7f79"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cbe2db1c-ea1c-44c3-8be4-d5b96e29467f">
+                    <propertyInstance
+                      Id="516bfb29-22ff-4677-a440-4804398a57a9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e78b6916-e740-4aa6-9444-a147a105c935">
+                    <propertyInstance
+                      Id="af300ecb-f9de-493f-a9b2-2805a961d330"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6516612a-7704-4d8b-b5bc-530bb3cc09ed">
+                    <propertyInstance
+                      Id="cc18c4ba-6449-45b8-8ee8-57c720bfcd00"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="123961c6-8614-40eb-bea8-8656a224b604"
+                  name="order"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="04fabc88-36aa-4a8b-8ec2-096d0a444358"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3DCart Member%3D(Name%3DSaveOrder OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness.Entity Type%3DOrder)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness.Entity Type%3DProduct)]))]) ParameterIdentifier%3Dorder"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="63e24882-3859-483e-ab20-e813819276d1"
+                      LastKnownName="Order"
+                      LastKnownLocation="Package2_1314.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7acc08ad-da50-4a0d-8cd0-46f52eb1c361"
+                  name="products"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="36abb592-6dbd-4191-963c-bb574d0ff8a5"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness Type%3DCart Member%3D(Name%3DSaveOrder OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness.Entity Type%3DOrder)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fmaicong%2Fdocuments%2Fvisual studio 2012%2FProjects%2FGenericRepository%2FBusiness%2Fbin%2FDebug%2FBusiness.dll&quot; Namespace%3DBusiness.Entity Type%3DProduct)]))]) ParameterIdentifier%3Dproducts"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="04f6a7e6-d670-48fb-8f45-6b6fe1fa7900"
+                      LastKnownName="List&lt;Product‎&gt;"
+                      LastKnownLocation="Package1_1314.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
